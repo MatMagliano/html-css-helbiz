@@ -101,7 +101,7 @@ header {
 .helbizbike {
   padding: 60px;
   text-align: center;
-  background-color: #fafafa;
+  background-color: #FAFAFA;
 }
 
 .helbizgo_logo,
@@ -135,7 +135,7 @@ header {
 
 .helbizgo_img,
 .helbizbike_img {
-  width: 60%;
+  width: 30em;
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
@@ -169,8 +169,9 @@ header {
 .helbizbike_logo {
   width: 60%;
 }
-.helbizgo_img {
-  width: 67%;
+.helbizgo_img,
+.helbizbike_img {
+  width: 20em;
 }
 
 }
@@ -202,5 +203,15 @@ header {
   }
   .jumbo_text a img {
     width: 100%;
+  }
+
+  /* helbizgo helbizbike */
+  .helbizgo,
+  .helbizbike {
+    margin: 30px 0;
+  }
+  .helbizgo_img,
+  .helbizbike_img {
+    width: 25%;
   }
 }
