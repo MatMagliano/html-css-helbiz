@@ -138,6 +138,53 @@ header {
   width: 30em;
 }
 
+/* banner iphone */
+.mid_banner {
+  position: relative;
+}
+.mid_iphone {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+
+}
+.mid_iphone img {
+  width: 40em;
+}
+.container-fluid .fluid-banner {
+  height: 600px;
+  margin-top: 80px;
+  background-image: url(../img/HelbizBanner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.mid_banner_left,
+.mid_banner_right {
+  position: relative;
+  height: 250px;
+}
+.mid_banner_left_text{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5em;
+}
+.mid_banner_right_text{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.mid_banner_right_text h3 {
+  padding-bottom: 15px;
+  font-weight: 400;
+  font-size: 2.5em;
+  text-transform: capitalize;
+}
+.mid_banner_right_text p {
+  font-weight: 300;
+  font-size: 2em;
+}
 @media screen and (max-width: 992px) and (min-width: 768px) {
 
 /*   header */
