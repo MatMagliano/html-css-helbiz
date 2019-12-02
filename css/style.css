@@ -4,7 +4,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .container_1000 {
@@ -87,6 +87,52 @@ header {
 .jumbo_text p {
   font-size: 1.5em;
   margin-bottom: 0.8rem;
+}
+
+/* helbizgo helbizbike */
+.helbizgo_bike {
+  margin-top: 60px;
+}
+.helbizgo,
+.helbizbike {
+  margin-right: 50px;
+  padding: 60px;
+  text-align: center;
+  background-color: #FAFAFA;
+}
+
+.helbizgo_logo,
+.helbizbike_logo {
+  width: 30%;
+}
+.helbizgo p,
+.helbizbike p {
+  padding: 20px 0;
+  font-size: 2em;
+  font-weight: 300;
+}
+.helbizgo a,
+.helbizbike a {
+  display: block;
+  text-decoration: none;
+  padding-bottom: 30px;
+  font-size: 2em;
+  font-weight: 300;
+  color: #3978be;
+}
+.helbizgo a:hover,
+.helbizbike a:hover {
+  text-decoration: underline;
+}
+.helbizgo a i,
+.helbizbike a i {
+  padding-left: 5px;
+  font-size: 0.8em;
+}
+
+.helbizgo_img,
+.helbizbike_img {
+  width: 60%;
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
